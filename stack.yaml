@@ -2,7 +2,10 @@ flags: {}
 packages:
 - '.'
 extra-deps:
-- cereal-text-0.1.0.2
-- fullstop-0.1.4
-- tokenize-0.3.0
-resolver: lts-16.2
+- fullstop-0.1.4@sha256:80a3e382ef53551bb936e7da8b2825621df0ea169af1212debcb0a90010b30c8,2044
+- tokenize-0.3.0@sha256:73e4e845359ff60e51d30f3c33b751ced1076fac5e6640243463795260172ee0,2256
+  #- cereal-text-0.1.0.2
+  #- fullstop-0.1.4
+  #- tokenize-0.3.0
+resolver: 
+  url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/23.yaml
